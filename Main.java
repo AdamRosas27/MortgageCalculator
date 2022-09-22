@@ -23,6 +23,10 @@ class Main {
         // define constants 12 and 100
         // find the number of payments
         // find the monthly interest payments
+        /*
+         * with the new values we found with the previous statements, find the mortgage
+         * using the given formula
+         */
 
     }
 
