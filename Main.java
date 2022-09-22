@@ -1,4 +1,10 @@
 /*
+ * Adam Rosas
+ * CSC 300 - Homework 1
+ * 09/22/2022
+ */
+
+/*
  * Mortgage = Principal * (interestRate (1 + interestRate)^n) / ((1
  * +interestRate)^n - 1)
  */
