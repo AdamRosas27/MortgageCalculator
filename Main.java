@@ -42,6 +42,7 @@ class Main {
         // create decimal format instance
         DecimalFormat decFormaty = new DecimalFormat("0.#");
         // instantiate varibal to keep track of input
+        double userInput;
         // keep looping as long as the input is invalid
         // if value of input is valid then break from the loop
         // error message if input given is invalid
