@@ -38,6 +38,7 @@ class Main {
     // public static readNumber method returns double
     public static double readNumber(String prompt, double MIN, double MAX) {
         // create scanner instance
+        Scanner scanny = new Scanner(System.in);
         // create decimal format instance
         // instantiate varibal to keep track of input
         // keep looping as long as the input is invalid
