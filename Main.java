@@ -32,7 +32,7 @@ class Main {
          * using the given formula
          */
         double mortgage = principal * (monthlyInterest * Math.pow(1 + monthlyInterest, numOfPayments));
-
+        return mortgage;
     }
 
     // public static readNumber method returns double
