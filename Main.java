@@ -23,6 +23,8 @@ class Main {
         byte years = (byte) readNumber("Please enter the amount of years: ", 1, 30);
         // calculate mortgage
         double mortgage = calculateMortgage(principal, annualInterest, years);
+        // print out mortgage to screen in proper decimal place format
+        System.out.println("\nYour Mortgage Is Approximately: " + NumberFormat.getCurrencyInstance().format(mortgage));
 
     }
 
