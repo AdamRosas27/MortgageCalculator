@@ -56,5 +56,4 @@ class Main {
             return userInput;
         }
     }
-
 }
