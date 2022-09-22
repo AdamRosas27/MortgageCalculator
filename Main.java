@@ -28,6 +28,9 @@ class Main {
         // create scanner instance
         // create decimal format instance
         // instantiate varibal to keep track of input
+        // keep looping as long as the input is invalid
+        // if value of input is valid then break from the loop
+        // error message if input given is invalid
 
     }
 
