@@ -44,6 +44,10 @@ class Main {
         // instantiate varibal to keep track of input
         double userInput;
         // keep looping as long as the input is invalid
+        while (!false) {
+            System.out.println(prompt);
+            userInput = scanny.nextDouble();
+        }
         // if value of input is valid then break from the loop
         // error message if input given is invalid
 
