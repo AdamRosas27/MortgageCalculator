@@ -15,6 +15,8 @@ class Main {
 
     // Main Method
     public static void main(String[] args) {
+        // create principal variable with prompt, and lower and upper bounds
+        int principal = (int) readNumber("Please enter amount of principal: ", 1_000, 1_000_000);
 
     }
 
