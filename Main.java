@@ -47,23 +47,20 @@ class Main {
 
     // public static readNumber method returns double
     public static double readNumber(String prompt, double MIN, double MAX) {
-        try (// create scanner instance
-                Scanner scanny = new Scanner(System.in)) {
-            // create decimal format instance
-            DecimalFormat decFormaty = new DecimalFormat("0.#");
-            // instantiate varibal to keep track of input
-            double userInput;
-            // keep looping as long as the input is invalid
-            while (!false) {
-                System.out.println(prompt);
-                userInput = scanny.nextDouble();
-                // if value of input is valid then break from the loop
-                if (userInput >= MIN || userInput <= MAX) {
-                    break;
-                }
-                System.out.printf("Enter a value between %s and %s", decFormaty.format(MIN), decFormaty.format(MAX));
+        Scanner scanny = new Scanner(System.in);
+        // create decimal format instance
+        DecimalFormat decFormaty = new DecimalFormat("0.#");
+        double userInput;
+        // keep looping as long as the input is invalid
+        while (!false) {
+            System.out.println(prompt);
+            userInput = scanny.nextDouble();
+            // if value of input is valid then break from the loop
+            if (userInput >= MIN || userInput <= MAX) {
+                break;
             }
-            return userInput;
+            System.out.printf("Enter a value between %s and %s", decFormaty.format(MIN), decFormaty.format(MAX));
         }
+        return userInput;
     }
 }
