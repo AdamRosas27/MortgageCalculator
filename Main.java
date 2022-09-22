@@ -25,7 +25,9 @@ class Main {
 
     // public static readNumber method returns double
     public static double readNumber(String prompt, double MIN, double MAX) {
-        // create scanner
+        // create scanner instance
+        // create decimal format instance
+        // instantiate varibal to keep track of input
 
     }
 
