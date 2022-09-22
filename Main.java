@@ -24,6 +24,7 @@ class Main {
         final float percentage = 100;
         final byte numMonths = 12;
         // find the number of payments
+        short numOfPayments = (short) (years * numMonths);
         // find the monthly interest payments
         /*
          * with the new values we found with the previous statements, find the mortgage
