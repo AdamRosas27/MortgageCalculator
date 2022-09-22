@@ -22,5 +22,8 @@ class Main {
     }
 
     // public static readNumber method returns double
+    public static double readNumber(String prompt, double MIN, double MAX) {
+
+    }
 
 }
