@@ -40,6 +40,7 @@ class Main {
         // create scanner instance
         Scanner scanny = new Scanner(System.in);
         // create decimal format instance
+        DecimalFormat decFormaty = new DecimalFormat("0.#");
         // instantiate varibal to keep track of input
         // keep looping as long as the input is invalid
         // if value of input is valid then break from the loop
