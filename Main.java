@@ -47,8 +47,11 @@ class Main {
         while (!false) {
             System.out.println(prompt);
             userInput = scanny.nextDouble();
+            // if value of input is valid then break from the loop
+            if (userInput >= MIN || userInput <= MAX) {
+                break;
+            }
         }
-        // if value of input is valid then break from the loop
         // error message if input given is invalid
 
     }
