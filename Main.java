@@ -17,6 +17,8 @@ class Main {
     public static void main(String[] args) {
         // create principal variable with prompt, and lower and upper bounds
         int principal = (int) readNumber("Please enter amount of principal: ", 1_000, 1_000_000);
+        float annualInterest = (float) readNumber("Please enter the amount of annual interest rate: ", 1, 30);
+        byte years = (byte) readNumber("Please enter the amount of years: ", 1, 30);
 
     }
 
