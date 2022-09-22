@@ -9,9 +9,12 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 // Main Class
+class Main {
 
-// Main Method
+    // Main Method
 
-// public static calculateMortgage method returns double
+    // public static calculateMortgage method returns double
 
-// public static readNumber method returns double
+    // public static readNumber method returns double
+
+}
