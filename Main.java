@@ -26,6 +26,7 @@ class Main {
         // find the number of payments
         short numOfPayments = (short) (years * numMonths);
         // find the monthly interest payments
+        float monthlyInterest = (annualInterest / percentage) / numMonths;
         /*
          * with the new values we found with the previous statements, find the mortgage
          * using the given formula
