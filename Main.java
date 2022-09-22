@@ -21,6 +21,8 @@ class Main {
     // public static calculateMortgage method returns double
     public static double calculateMortgage(int principal, float annualInterest, byte years) {
         // define constants 12 and 100
+        final float percentage = 100;
+        final byte numMonths = 12;
         // find the number of payments
         // find the monthly interest payments
         /*
