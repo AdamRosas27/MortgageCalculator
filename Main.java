@@ -31,6 +31,7 @@ class Main {
          * with the new values we found with the previous statements, find the mortgage
          * using the given formula
          */
+        double mortgage = principal * (monthlyInterest * Math.pow(1 + monthlyInterest, numOfPayments));
 
     }
 
