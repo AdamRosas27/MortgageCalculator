@@ -51,9 +51,9 @@ class Main {
             if (userInput >= MIN || userInput <= MAX) {
                 break;
             }
+            System.out.printf("Enter a value between %s and %s", decFormaty.format(MIN), decFormaty.format(MAX));
         }
-        // error message if input given is invalid
-
+        return userInput;
     }
 
 }
