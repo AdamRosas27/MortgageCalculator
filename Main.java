@@ -17,6 +17,9 @@ class Main {
     }
 
     // public static calculateMortgage method returns double
+    public static double calculateMortgage(int principal, float annualInterest, byte years) {
+
+    }
 
     // public static readNumber method returns double
 
