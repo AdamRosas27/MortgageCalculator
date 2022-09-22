@@ -7,6 +7,8 @@
 import java.text.NumberFormat;
 // import java.util.Scanner
 import java.util.Scanner;
+// import java.text.DecimalFormat
+import java.text.DecimalFormat;
 
 // Main Class
 class Main {
@@ -23,6 +25,7 @@ class Main {
 
     // public static readNumber method returns double
     public static double readNumber(String prompt, double MIN, double MAX) {
+        // create scanner
 
     }
 
